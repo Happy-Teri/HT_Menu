@@ -18,7 +18,7 @@ export default {
   components: {},
 };
 </script>
-
+//3800x2100
 
 <style scoped>
 .main {
@@ -26,5 +26,6 @@ export default {
   width: 100vw;
   background-image: url("../assets/Favorites.jpg");
   background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 </style>

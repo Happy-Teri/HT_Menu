@@ -26,5 +26,6 @@ export default {
   width: 100vw;
   background-image: url("../assets/Lunch Menu.jpg");
   background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 </style>

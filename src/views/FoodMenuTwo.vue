@@ -26,5 +26,6 @@ export default {
   width: 100vw;
   background-image: url("../assets/Noodles-Combo-Sides.jpg");
   background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 </style>

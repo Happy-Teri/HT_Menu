@@ -27,5 +27,6 @@ export default {
   background-image: url("../assets/BubbleTeaMenu.png");
   background-size: contain;
   background-repeat: no-repeat;
+  image-orientation: 90deg;
 }
 </style>
