@@ -1,7 +1,7 @@
 <template>
   <div class="drink-menu">
     <main class="container-fluid">
-      <div class="row main d-flex"></div>
+      <div class="row main"></div>
     </main>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default {
 .main {
   height: 100vh;
   width: 100vw;
-  background-image: url("../assets/logo.png");
+  background-image: url("../assets/BubbleTeaMenu.png");
   background-size: contain;
   background-repeat: no-repeat;
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="food-menu-one">
     <main class="container-fluid">
-      <div class="row main d-flex">c</div>
+      <div class="row main"></div>
     </main>
   </div>
 </template>

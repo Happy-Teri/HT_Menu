@@ -1,5 +1,9 @@
 <template>
-  <div class="food-menu-three"></div>
+  <div class="food-menu-three">
+    <main class="container-fluid">
+      <div class="row main"></div>
+    </main>
+  </div>
 </template>
 
 
@@ -17,4 +21,10 @@ export default {
 
 
 <style scoped>
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/Lunch Menu.jpg");
+  background-repeat: no-repeat;
+}
 </style>

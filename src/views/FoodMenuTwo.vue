@@ -1,65 +1,8 @@
 <template>
   <div class="food-menu-two">
-    <header class="container-fluid">header</header>
     <main class="container-fluid">
-      <div class="row d-flex align-items-center main">
-        <div class="col-4">
-          <div class="row">
-            <div class="col-6">text</div>
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-          </div>
-          <div class="row">
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-            <div class="col-6">text</div>
-          </div>
-          <div class="row">
-            <div class="col-6">text</div>
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-          </div>
-          <div class="row">
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-            <div class="col-6">text</div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="row">
-            <div class="col-6">text</div>
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-          </div>
-          <div class="row">
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-            <div class="col-6">text</div>
-          </div>
-          <div class="row">
-            <div class="col-6">text</div>
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-          </div>
-          <div class="row">
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-            <div class="col-6">text</div>
-          </div>
-        </div>
-        <div class="col-4">
-          <div class="row">
-            <div class="col-6">text</div>
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-          </div>
-          <div class="row">
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-            <div class="col-6">text</div>
-          </div>
-          <div class="row">
-            <div class="col-6">text</div>
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-          </div>
-          <div class="row">
-            <div class="col-6"><img src="//placehold.it/200x200" alt="" /></div>
-            <div class="col-6">text</div>
-          </div>
-        </div>
-      </div>
+      <div class="row main"></div>
     </main>
-    <footer class="container-fluid">footer</footer>
   </div>
 </template>
 
@@ -78,18 +21,10 @@ export default {
 
 
 <style scoped>
-* {
-  border: 1px solid red;
-}
-header {
-  height: 5vh;
-}
 .main {
-  height: 90vh;
-}
-footer {
-  height: 5vh;
-  position: fixed;
-  bottom: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/Noodles-Combo-Sides.jpg");
+  background-repeat: no-repeat;
 }
 </style>
