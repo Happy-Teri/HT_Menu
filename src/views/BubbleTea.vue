@@ -1,5 +1,5 @@
 <template>
-  <div class="food-menu-two">
+  <div class="bubble-tea">
     <main class="container-fluid">
       <div class="row main"></div>
     </main>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "food-menu-two",
+  name: "bubble-tea",
   data() {
     return {};
   },
@@ -24,7 +24,8 @@ export default {
 .main {
   height: 100vh;
   width: 100vw;
-  background-image: url("../assets/Noodles-Combo-Sides.jpg");
+  background-image: url("../assets/BubbleTea.png");
+  background-size: contain;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }

@@ -1,29 +1,29 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import FoodMenuOne from '../views/FoodMenuOne.vue'
+import FavoritesMenu from '../views/FavoritesMenu.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'FoodMenuOne',
-    component: FoodMenuOne
+    path: '/favoritesmenu',
+    name: 'FavoritesMenu',
+    component: FavoritesMenu
   },
   {
-    path: '/foodmenutwo',
-    name: 'FoodMenuTwo',
-    component: () => import('../views/FoodMenuTwo.vue')
+    path: '/noodlescombossides',
+    name: 'NoodlesCombosSides',
+    component: () => import('../views/NoodlesCombosSides.vue')
   },
   {
-    path: '/foodmenuthree',
-    name: 'FoodMenuThree',
-    component: () => import('../views/FoodMenuThree.vue')
+    path: '/lunchspecials',
+    name: 'LunchSpecials',
+    component: () => import('../views/LunchSpecials.vue')
   },
   {
-    path: '/drinkmenu',
-    name: 'DrinkMenu',
-    component: () => import('../views/DrinkMenu.vue')
+    path: '/bubbletea',
+    name: 'BubbleTea',
+    component: () => import('../views/BubbleTea.vue')
   }
 ]
 

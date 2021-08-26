@@ -1,5 +1,5 @@
 <template>
-  <div class="food-menu-three">
+  <div class="favorites-menu">
     <main class="container-fluid">
       <div class="row main"></div>
     </main>
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "food-menu-three",
+  name: "favorites-menu",
   data() {
     return {};
   },
@@ -19,12 +19,11 @@ export default {
 };
 </script>
 
-
 <style scoped>
 .main {
   height: 100vh;
   width: 100vw;
-  background-image: url("../assets/Lunch Menu.jpg");
+  background-image: url("../assets/Favorites.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
 }
