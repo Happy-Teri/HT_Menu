@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/favoritesmenu',
+    path: '/',
     name: 'FavoritesMenu',
     component: FavoritesMenu
   },
