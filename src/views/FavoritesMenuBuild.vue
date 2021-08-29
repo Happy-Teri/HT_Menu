@@ -2,6 +2,7 @@
   <div class="favorites-menu-build">
     <header class="container-fluid">header</header>
     <main class="container-fluid">
+      <!--TODO Need to jusitfy space around on y-axis -->
       <div class="row d-flex align-items-center main">
         <div class="col-4">
           <div class="row">
