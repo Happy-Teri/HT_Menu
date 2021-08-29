@@ -24,6 +24,26 @@ const routes = [
     path: '/bubbletea',
     name: 'BubbleTea',
     component: () => import('../views/BubbleTea.vue')
+  },
+  {
+    path: '/build/favoritesmenu',
+    name: 'FavoritesMenuBuild',
+    component: () => import('../views/FavoritesMenuBuild.vue')
+  },
+  {
+    path: '/build/noodlescombossides',
+    name: 'NoodlesCombosSidesBuild',
+    component: () => import('../views/NoodlesCombosSidesBuild.vue')
+  },
+  {
+    path: '/build/lunchspecials',
+    name: 'LunchSpecialsBuild',
+    component: () => import('../views/LunchSpecialsBuild.vue')
+  },
+  {
+    path: '/build/bubbletea',
+    name: 'BubbleTeaBuild',
+    component: () => import('../views/BubbleTeaBuild.vue')
   }
 ]
 
