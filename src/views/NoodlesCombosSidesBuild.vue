@@ -1,5 +1,20 @@
 <template>
-  <div class="noodles-combos-sides-build"></div>
+  <div class="noodles-combos-sides-build">
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-5">Noodle or Fried Rice</div>
+        <div class="col-5">Combination Specials</div>
+        <div class="col-2">Sides</div>
+      </div>
+    </header>
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-5">content</div>
+        <div class="col-5">content</div>
+        <div class="col-2">content</div>
+      </div>
+    </main>
+  </div>
 </template>
 
 
@@ -17,4 +32,13 @@ export default {
 
 
 <style scoped>
+* {
+  border: 1px solid red;
+}
+header {
+  height: 5vh;
+}
+.main {
+  height: 90vh;
+}
 </style>
